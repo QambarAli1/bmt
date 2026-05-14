@@ -212,7 +212,7 @@ export default function Navbar() {
 
           <Link
             href="/#donate"
-            className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold text-white bg-linear-to-r from-primary-700 to-teal-600 hover:from-primary-800 hover:to-teal-700 transition-all shadow-lg hover:shadow-primary-500/30 hover:-translate-y-0.5"
+            className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-primary-700 to-teal-600 hover:from-primary-800 hover:to-teal-700 transition-all shadow-lg hover:shadow-primary-500/30 hover:-translate-y-0.5"
           >
             <Heart className="w-4 h-4 fill-white" />
             Donate
@@ -311,7 +311,7 @@ export default function Navbar() {
                 <Link
                   href="/#donate"
                   onClick={() => setMobileOpen(false)}
-                  className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-white bg-linear-to-r from-primary-700 to-teal-600 shadow-lg"
+                  className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-primary-700 to-teal-600 shadow-lg"
                 >
                   <Heart className="w-4 h-4 fill-white" />
                   Donate Now
