@@ -179,9 +179,8 @@ export default function Hero() {
               <button
                 key={i}
                 onClick={() => setCurrent(i)}
-                className={`transition-all duration-300 rounded-full ${
-                  i === current ? "w-8 h-2 bg-white" : "w-2 h-2 bg-white/40 hover:bg-white/60"
-                }`}
+                className={`transition-all duration-300 rounded-full ${i === current ? "w-8 h-2 bg-white" : "w-2 h-2 bg-white/40 hover:bg-white/60"
+                  }`}
               />
             ))}
           </div>
@@ -241,9 +240,10 @@ export default function Hero() {
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+                src="https://www.youtube.com/embed/i_of6Do76IU?si=h2X1xiEc2p0n-VZK&autoplay=1"
                 title="Baltistan Medical Trust – Our Story"
-                allow="autoplay; encrypted-media"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               />
             </motion.div>
