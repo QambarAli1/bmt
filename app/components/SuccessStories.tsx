@@ -21,7 +21,7 @@ const testimonials = [
     role: "Volunteer Doctor, Skardu",
     type: "Volunteer",
     story:
-      "I've joined 12 medical camps organized by BMT. What amazes me is seeing villagers walk for hours to reach our camp — they&apos;ve never been seen by a doctor. One elderly man in Khaplu thanked us with tears saying we were the first medical team to visit his village in 30 years. This work matters.",
+      "I've joined 12 medical camps organized by BMT. What amazes me is seeing villagers walk for hours to reach our camp — they've never been seen by a doctor. One elderly man in Khaplu thanked us with tears saying we were the first medical team to visit his village in 30 years. This work matters.",
     image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=150&q=80",
     rating: 5,
     tag: "Medical Camp",
@@ -31,7 +31,7 @@ const testimonials = [
     role: "Blood Donor, Gilgit",
     type: "Donor",
     story:
-      "I donated blood for the first time 5 years ago because BMT visited our university. When I saw that my blood type saved a pregnant woman in an emergency, I became a regular donor. I&apos;ve donated 14 times now. It costs me 30 minutes but saves a life. Why would I not?",
+      "I donated blood for the first time 5 years ago because BMT visited our university. When I saw that my blood type saved a pregnant woman in an emergency, I became a regular donor. I've donated 14 times now. It costs me 30 minutes but saves a life. Why would I not?",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80",
     rating: 5,
     tag: "Blood Donor",
@@ -51,7 +51,7 @@ const testimonials = [
     role: "Donor from Karachi",
     type: "Donor",
     story:
-      "I&apos;m from Karachi but my family is from Baltistan. I wanted to give back but didn&apos;t know how. BMT&apos;s transparent reporting showed me exactly where my money went — photos, names, impact numbers. I give monthly now and share it with my friends. This is how charity should work.",
+      "I'm from Karachi but my family is from Baltistan. I wanted to give back but didn't know how. BMT's transparent reporting showed me exactly where my money went — photos, names, impact numbers. I give monthly now and share it with my friends. This is how charity should work.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&q=80",
     rating: 5,
     tag: "Monthly Donor",
