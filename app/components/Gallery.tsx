@@ -8,17 +8,16 @@ import SectionTitle from "./SectionTitle";
 const categories = ["All", "Medical Camps", "Blood Drives", "Community", "Team"];
 
 const galleryItems = [
-  { src: "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?w=600&q=80", alt: "Medical camp in remote village", category: "Medical Camps", span: "col-span-2 row-span-2" },
-  { src: "https://images.unsplash.com/photo-1615461066841-6116e61058f4?w=400&q=80", alt: "Blood donation drive", category: "Blood Drives", span: "" },
-  { src: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&q=80", alt: "Doctors consulting patients", category: "Medical Camps", span: "" },
-  { src: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&q=80", alt: "Emergency healthcare team", category: "Team", span: "" },
-  { src: "https://images.unsplash.com/photo-1576669801820-a9ab287ac2d1?w=400&q=80", alt: "Child healthcare", category: "Community", span: "" },
-  { src: "https://images.unsplash.com/photo-1598550874175-4d0ef436c909?w=400&q=80", alt: "Community health worker", category: "Community", span: "col-span-2" },
-  { src: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80", alt: "Medical volunteer team", category: "Team", span: "" },
-  { src: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=400&q=80", alt: "Ambulance service", category: "Community", span: "" },
-  { src: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80", alt: "Mountain healthcare camp", category: "Medical Camps", span: "col-span-2" },
-  { src: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&q=80", alt: "Patient consultation", category: "Medical Camps", span: "" },
-  { src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80", alt: "Blood donor registration", category: "Blood Drives", span: "" },
+  { src: "/516393162_23874569478873403_561393224367461418_n.jpg", alt: "BMT Blood Donation Camp set up during Muharram", category: "Blood Drives", span: "" },
+  { src: "/515865711_23874563282207356_8395193868951604663_n.jpg", alt: "Donors giving blood at a BMT camp during Muharram", category: "Blood Drives", span: "" },
+  { src: "/536685970_24237221459274868_601388883361823419_n.jpg", alt: "BMT volunteers and donors at a Baltistan Medical Trust blood camp", category: "Team", span: "" },
+  { src: "/519994821_23966162043047479_8295503902269187784_n.jpg", alt: "A donor giving blood at a BMT camp", category: "Blood Drives", span: "" },
+  { src: "/517401686_23901856099478074_2589746068792865794_n.jpg", alt: "BMT Blood Donation Camp tent in Baltistan", category: "Medical Camps", span: "" },
+  { src: "/534137669_24183743424622672_2250665550058036798_n.jpg", alt: "BMT Karachi team at a blood donation camp", category: "Team", span: "" },
+  { src: "/518122143_23874562492207435_718034704989846716_n.jpg", alt: "Community gathering at a BMT camp during Ashura", category: "Community", span: "" },
+  { src: "/520536428_23966159906381026_6964571386710265349_n.jpg", alt: "Blood donation in progress at a BMT camp", category: "Blood Drives", span: "" },
+  { src: "/519417492_23966428329687517_992158734539418905_n.jpg", alt: "Families at a BMT camp during Muharram", category: "Community", span: "" },
+  { src: "/534816791_24183046874692327_4385463650775045670_n.jpg", alt: "A donor and his family at a BMT blood camp", category: "Community", span: "" },
 ];
 
 export default function Gallery() {

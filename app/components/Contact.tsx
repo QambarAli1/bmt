@@ -4,58 +4,58 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import {
   Phone, Mail, MapPin, MessageCircle, Send, CheckCircle,
-  Clock, Globe, Share2, Video, MessageSquare,
+  Globe, Share2, Video, MessageSquare,
 } from "lucide-react";
 import SectionTitle from "./SectionTitle";
 
 const contactInfo = [
   {
     icon: Phone,
-    label: "Emergency Hotline",
-    value: "+92-5812-920920",
-    sub: "24/7 – Blood & Medical Emergencies",
-    href: "tel:+92-5812-920920",
+    label: "Head Office (Cell)",
+    value: "0302-2496566",
+    sub: "Blood & medical assistance",
+    href: "tel:03022496566",
     color: "from-red-500 to-red-400",
     urgent: true,
   },
   {
+    icon: MessageCircle,
+    label: "WhatsApp Helpline",
+    value: "0346-3524295",
+    sub: "Quick response via WhatsApp",
+    href: "https://wa.me/923463524295",
+    color: "from-emerald-600 to-green-500",
+  },
+  {
     icon: Phone,
-    label: "General Enquiries",
-    value: "+92-5812-456789",
-    sub: "Mon–Sat, 9:00 AM – 6:00 PM",
-    href: "tel:+92-5812-456789",
+    label: "BMT SMS Service",
+    value: "0346-3163089",
+    sub: "Send us an SMS anytime",
+    href: "sms:03463163089",
     color: "from-primary-600 to-primary-400",
   },
   {
     icon: Mail,
     label: "Email Us",
-    value: "info@baltistanmedicaltrust.org",
+    value: "baltistanmedicaltrust@gmail.com",
     sub: "We respond within 24 hours",
-    href: "mailto:info@baltistanmedicaltrust.org",
+    href: "mailto:baltistanmedicaltrust@gmail.com",
     color: "from-teal-600 to-teal-400",
-  },
-  {
-    icon: MessageCircle,
-    label: "WhatsApp",
-    value: "+92-300-5812000",
-    sub: "Quick response via WhatsApp",
-    href: "https://wa.me/923005812000",
-    color: "from-emerald-600 to-green-500",
   },
   {
     icon: MapPin,
     label: "Head Office",
-    value: "Skardu, Gilgit-Baltistan",
-    sub: "Near DHQ Hospital, Skardu City",
+    value: "M.A. Jinnah Road, Karachi",
+    sub: "LG 2, Plot # M-02, Jinnah Complex, Near Taj Complex",
     href: "#",
     color: "from-amber-500 to-orange-400",
   },
   {
-    icon: Clock,
-    label: "Office Hours",
-    value: "Mon – Sat, 9 AM – 6 PM",
-    sub: "Emergency line operates 24/7",
-    href: "#",
+    icon: Globe,
+    label: "Website",
+    value: "baltistanmedicaltrust.com",
+    sub: "Visit us online",
+    href: "https://www.baltistanmedicaltrust.com",
     color: "from-slate-500 to-slate-400",
   },
 ];
@@ -148,7 +148,7 @@ export default function Contact() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/923005812000"
+              href="https://wa.me/923463524295"
               className="flex items-center gap-3 p-4 rounded-2xl bg-emerald-600 text-white hover:bg-emerald-700 transition-all shadow-lg hover:-translate-y-0.5"
             >
               <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center flex-shrink-0">
@@ -163,7 +163,7 @@ export default function Contact() {
             {/* Map placeholder */}
             <div className="mt-6 h-48 rounded-2xl overflow-hidden bg-slate-200 dark:bg-slate-700 relative">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52778.29247614278!2d75.5518!3d35.2943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e3b6f0c1e39e71%3A0xf9a3a91c5e57e9ac!2sSkardu%2C%20Gilgit-Baltistan!5e0!3m2!1sen!2spk!4v1699999999999!5m2!1sen!2spk"
+                src="https://www.google.com/maps?q=M.A.+Jinnah+Road,+Karachi,+Pakistan&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

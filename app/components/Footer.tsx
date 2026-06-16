@@ -102,17 +102,25 @@ export default function Footer() {
             </p>
 
             <div className="space-y-2.5">
-              <a href="tel:+92-5812-920920" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors group">
+              <a href="tel:03022496566" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors group">
                 <Phone className="w-4 h-4 text-red-400" />
-                <span>+92-5812-920920 <span className="text-red-400 text-xs">(Emergency)</span></span>
+                <span>0302-2496566 <span className="text-red-400 text-xs">(Cell)</span></span>
               </a>
-              <a href="mailto:info@baltistanmedicaltrust.org" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors">
-                <Mail className="w-4 h-4 text-teal-400" />
-                info@baltistanmedicaltrust.org
+              <a href="https://wa.me/923463524295" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors group">
+                <MessageCircle className="w-4 h-4 text-emerald-400" />
+                <span>0346-3524295 <span className="text-emerald-400 text-xs">(WhatsApp)</span></span>
+              </a>
+              <a href="mailto:baltistanmedicaltrust@gmail.com" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors break-all">
+                <Mail className="w-4 h-4 text-teal-400 flex-shrink-0" />
+                baltistanmedicaltrust@gmail.com
+              </a>
+              <a href="https://www.baltistanmedicaltrust.com" className="flex items-center gap-2.5 text-sm text-white/70 hover:text-white transition-colors">
+                <Globe className="w-4 h-4 text-primary-300" />
+                www.baltistanmedicaltrust.com
               </a>
               <div className="flex items-start gap-2.5 text-sm text-white/70">
                 <MapPin className="w-4 h-4 text-amber-400 flex-shrink-0 mt-0.5" />
-                Near DHQ Hospital, Skardu, Gilgit-Baltistan, Pakistan
+                BMT Head Office, LG 2, Plot # M-02, Jinnah Complex, Near Taj Complex, M.A. Jinnah Road, Karachi, Pakistan
               </div>
             </div>
 
