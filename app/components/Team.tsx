@@ -130,8 +130,8 @@ export default function Team() {
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-400"
                       />
                     </div>
-                    <div className="absolute -bottom-1 -right-1 left-0 flex justify-center">
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-gradient-to-r from-primary-600 to-teal-600 text-white shadow">
+                    <div className="absolute -bottom-1 left-0 right-0 px-3 flex justify-center">
+                      <span className="max-w-full truncate text-[10px] font-bold px-2 py-0.5 rounded-full bg-gradient-to-r from-primary-600 to-teal-600 text-white shadow">
                         {member.specialty}
                       </span>
                     </div>

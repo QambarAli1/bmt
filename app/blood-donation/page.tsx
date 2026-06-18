@@ -23,7 +23,7 @@ export default function BloodDonationPage() {
               <span className="w-2 h-2 rounded-full bg-red-300 animate-pulse" />
               24/7 Blood Donor Network
             </span>
-            <h1 className="text-4xl md:text-6xl font-extrabold font-heading mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold font-heading mb-4">
               Blood Donation
             </h1>
             <p className="text-white/80 text-lg leading-relaxed">

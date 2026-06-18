@@ -162,7 +162,7 @@ export default function About() {
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
-              className="absolute -bottom-6 -left-6 p-5 rounded-2xl bg-[var(--card-bg)] shadow-xl border border-[var(--border-color)]"
+              className="absolute -bottom-4 left-0 sm:-bottom-6 sm:-left-6 p-5 rounded-2xl bg-[var(--card-bg)] shadow-xl border border-[var(--border-color)]"
             >
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-xl bg-red-50 dark:bg-red-900/30 flex items-center justify-center">
@@ -178,7 +178,7 @@ export default function About() {
             <motion.div
               animate={{ y: [0, 8, 0] }}
               transition={{ repeat: Infinity, duration: 3.5, ease: "easeInOut", delay: 0.5 }}
-              className="absolute -top-6 -right-6 p-4 rounded-2xl bg-gradient-to-br from-teal-500 to-teal-700 shadow-xl text-white"
+              className="absolute -top-4 right-0 sm:-top-6 sm:-right-6 p-4 rounded-2xl bg-gradient-to-br from-teal-500 to-teal-700 shadow-xl text-white"
             >
               <p className="text-2xl font-extrabold font-heading">15+</p>
               <p className="text-xs text-teal-100">Districts Covered</p>

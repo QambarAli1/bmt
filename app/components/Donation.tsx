@@ -164,7 +164,7 @@ export default function Donation() {
             </div>
 
             {/* Preset amounts */}
-            <div className="grid grid-cols-4 gap-2 mb-4">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-4">
               {presetAmounts.map((amt) => (
                 <button
                   key={amt}
@@ -214,7 +214,7 @@ export default function Donation() {
               {donationType === "monthly" && " / month"}
             </button>
 
-            <div className="flex items-center justify-center gap-4 mt-4 text-xs text-slate-400">
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 mt-4 text-xs text-slate-400">
               <span className="flex items-center gap-1">
                 <Lock className="w-3 h-3" /> Secure Payment
               </span>

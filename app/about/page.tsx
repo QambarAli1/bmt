@@ -24,7 +24,7 @@ export default function AboutPage() {
               <span className="w-2 h-2 rounded-full bg-teal-300 animate-pulse" />
               Our Story Since 2009
             </span>
-            <h1 className="text-4xl md:text-6xl font-extrabold font-heading mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold font-heading mb-4">
               About Baltistan Medical Trust
             </h1>
             <p className="text-white/80 text-lg leading-relaxed">

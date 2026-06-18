@@ -108,7 +108,7 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.6 }}
-                className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6 font-heading"
+                className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6 font-heading"
                 style={{ whiteSpace: "pre-line" }}
               >
                 {slides[current].headline}
