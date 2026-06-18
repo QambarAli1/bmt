@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
+import Branches from "../components/Branches";
 import Team from "../components/Team";
 import SuccessStories from "../components/SuccessStories";
 import Footer from "../components/Footer";
@@ -34,6 +35,7 @@ export default function AboutPage() {
           </div>
         </div>
         <About />
+        <Branches />
         <Team />
         <SuccessStories />
       </main>
