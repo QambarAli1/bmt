@@ -223,11 +223,6 @@ export default function Footer() {
           <p>
             © {new Date().getFullYear()} Baltistan Medical Trust. All rights reserved.
           </p>
-          <div className="flex gap-4">
-            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">Terms of Use</Link>
-            <Link href="/transparency" className="hover:text-white transition-colors">Transparency Report</Link>
-          </div>
           <p className="flex items-center gap-1">
             Made with <Heart className="w-3 h-3 text-red-500 fill-red-500 inline" /> for Baltistan
           </p>
