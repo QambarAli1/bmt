@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import BloodDonation from "./components/BloodDonation";
+import CampaignReport from "./components/CampaignReport";
 import MedicalServices from "./components/MedicalServices";
 // import Donation from "./components/Donation"; // TODO: re-enable once payment method is implemented
 import SuccessStories from "./components/SuccessStories";
@@ -19,6 +20,7 @@ export default function Home() {
         <Hero />
         <About />
         <BloodDonation />
+        <CampaignReport />
         <MedicalServices />
         {/* <Donation /> */}  {/* TODO: re-enable once payment method is implemented */}
         <SuccessStories />

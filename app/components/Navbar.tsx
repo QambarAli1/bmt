@@ -28,6 +28,7 @@ const navLinks = [
       { label: "Ambulance", href: "/#services" },
     ],
   },
+  { label: "Muharram Report", href: "/#campaign-report" },
   { label: "Gallery", href: "/#gallery" },
   { label: "Events", href: "/#events" },
   { label: "Contact", href: "/contact" },
@@ -140,6 +141,14 @@ export default function Navbar() {
           <span className="opacity-75">Registered NGO · Gilgit-Baltistan, Pakistan</span>
         </div>
         <div className="flex items-center gap-4">
+          <a
+            href="/#campaign-report"
+            className="flex items-center gap-1.5 font-semibold text-amber-300 hover:text-white transition-colors"
+          >
+            <span className="w-1.5 h-1.5 rounded-full bg-amber-300 animate-pulse" />
+            New: Muharram Blood Drive Report
+          </a>
+          <span className="opacity-40">|</span>
           <a href="/#donate" className="text-teal-300 hover:text-white transition-colors font-semibold">
             Donate Now
           </a>

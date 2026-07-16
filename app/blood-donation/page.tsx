@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
 import BloodDonation from "../components/BloodDonation";
+import CampaignReport from "../components/CampaignReport";
 import SuccessStories from "../components/SuccessStories";
 import Footer from "../components/Footer";
 
@@ -33,6 +34,7 @@ export default function BloodDonationPage() {
           </div>
         </div>
         <BloodDonation />
+        <CampaignReport />
         <SuccessStories />
       </main>
       <Footer />
