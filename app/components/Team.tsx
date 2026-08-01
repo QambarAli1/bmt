@@ -1,85 +1,44 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Globe, Share2, Mail } from "lucide-react";
+import { Phone, MessageCircle } from "lucide-react";
 import SectionTitle from "./SectionTitle";
 
 const categories = [
   {
-    label: "Medical Team",
+    label: "BMT Ghanche — Branch Setup",
     members: [
       {
-        name: "Dr. Imtiaz Hussain",
-        role: "Chief Medical Officer",
-        specialty: "Internal Medicine",
-        image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&q=80",
-        bio: "MBBS, FCPS – 20 years in internal medicine across Baltistan.",
+        name: "Ehtisham Baltistani",
+        role: "Head of BMT Ghanche",
+        specialty: "Branch Head",
+        image: "/bmt-ganche/head-ehtisham-baltistani.jpeg",
+        bio: "Leads and strengthens all affairs of the Ghanche branch.",
+        phones: ["03480182185", "03555130279"],
       },
       {
-        name: "Dr. Zainab Fatima",
-        role: "Head of Women's Health",
-        specialty: "Gynecology & Obstetrics",
-        image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=200&q=80",
-        bio: "MBBS, FCPS – Dedicated to reducing maternal mortality in remote areas.",
+        name: "Mustafa Baltistani",
+        role: "Incharge of BMT Ghanche",
+        specialty: "Branch Incharge",
+        image: "/bmt-ganche/incharge-mustafa-baltistani.jpeg",
+        bio: "Manages units, camp logistics and day-to-day branch operations.",
+        phones: ["03131523366", "03554467423"],
       },
       {
-        name: "Dr. Rashid Karim",
-        role: "Emergency Medicine Lead",
-        specialty: "Emergency Medicine",
-        image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&q=80",
-        bio: "MBBS, MCPS – Coordinating 24/7 emergency response across the region.",
+        name: "Inayat Baltistani",
+        role: "Tech Incharge of BMT Ghanche",
+        specialty: "Technician Lead",
+        image: "/bmt-ganche/tech-incharge-inayat-baltistani.jpeg",
+        bio: "Heads the technician team for blood screening and camp equipment.",
+        phones: ["03410273788"],
       },
       {
-        name: "Dr. Nadia Malik",
-        role: "Pediatrician",
-        specialty: "Child Health",
-        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
-        bio: "MBBS, FCPS (Pediatrics) – Champion of child immunization programs.",
-      },
-    ],
-  },
-  {
-    label: "Leadership",
-    members: [
-      {
-        name: "Saqib Hussain",
-        role: "Founder & Executive Director",
-        specialty: "Community Development",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
-        bio: "Social entrepreneur who founded BMT in 2009 after witnessing preventable deaths in Baltistan.",
-      },
-      {
-        name: "Maryam Nawaz",
-        role: "Director of Operations",
-        specialty: "Healthcare Management",
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
-        bio: "MPA, 15 years managing large-scale healthcare programs across Pakistan.",
-      },
-      {
-        name: "Ali Baig",
-        role: "Director of Fundraising",
-        specialty: "Non-Profit Finance",
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
-        bio: "Chartered Accountant and development professional ensuring transparent fund management.",
-      },
-    ],
-  },
-  {
-    label: "Advisors",
-    members: [
-      {
-        name: "Prof. Dr. Nisar Ahmed",
-        role: "Medical Advisor",
-        specialty: "Public Health",
-        image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=200&q=80",
-        bio: "Former Dean of Medicine, Aga Khan University – guiding BMT's clinical standards.",
-      },
-      {
-        name: "Tanveer Mirza",
-        role: "Legal Advisor",
-        specialty: "NGO Law & Compliance",
-        image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80",
-        bio: "Senior Advocate, ensuring BMT's full legal compliance and governance.",
+        name: "Zubair Baltistani",
+        role: "Incharge BMHD of BMT Ghanche",
+        specialty: "BMHD Incharge",
+        image: "/bmt-ganche/bmhd-incharge-zubair-baltistani.jpeg",
+        bio: "Coordinates Baltistan Medical Help Desk services for Ghanche patients.",
+        phones: ["03445688034"],
       },
     ],
   },
@@ -93,7 +52,7 @@ export default function Team() {
           tag="Our Team"
           title="The People Behind "
           highlight="Every Life Saved"
-          description="A dedicated team of doctors, volunteers, and professionals committed to transforming healthcare in Gilgit-Baltistan."
+          description="A dedicated team of volunteers and professionals committed to transforming healthcare in Gilgit-Baltistan — reach any of them directly."
         />
 
         {categories.map((category, catIdx) => (
@@ -127,7 +86,7 @@ export default function Team() {
                       <img
                         src={member.image}
                         alt={member.name}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-400"
+                        className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-400"
                       />
                     </div>
                     <div className="absolute -bottom-1 left-0 right-0 px-3 flex justify-center">
@@ -147,15 +106,27 @@ export default function Team() {
                     {member.bio}
                   </p>
 
-                  {/* Social icons */}
-                  <div className="flex items-center justify-center gap-2 mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                    {[Globe, Share2, Mail].map((Icon, idx) => (
-                      <button
-                        key={idx}
-                        className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary-50 dark:hover:bg-primary-900/30 transition-colors"
-                      >
-                        <Icon className="w-3.5 h-3.5 text-slate-600 dark:text-slate-400" />
-                      </button>
+                  {/* Contact numbers */}
+                  <div className="flex flex-col items-center gap-1.5 mt-4">
+                    {member.phones.map((phone) => (
+                      <div key={phone} className="flex items-center gap-1.5">
+                        <a
+                          href={`tel:${phone}`}
+                          className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 text-xs font-medium text-slate-700 dark:text-slate-300 hover:bg-primary-50 dark:hover:bg-primary-900/30 hover:text-primary-700 dark:hover:text-teal-400 transition-colors"
+                        >
+                          <Phone className="w-3 h-3" />
+                          {phone}
+                        </a>
+                        <a
+                          href={`https://wa.me/92${phone.replace(/^0/, "")}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`WhatsApp ${member.name} on ${phone}`}
+                          className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-emerald-50 dark:hover:bg-emerald-900/30 hover:text-emerald-600 text-slate-600 dark:text-slate-400 transition-colors"
+                        >
+                          <MessageCircle className="w-3.5 h-3.5" />
+                        </a>
+                      </div>
                     ))}
                   </div>
                 </motion.div>
